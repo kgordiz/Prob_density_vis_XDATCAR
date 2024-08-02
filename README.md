@@ -10,3 +10,9 @@ To set up the environment, we recommend using Conda to manage dependencies. Foll
 ```bash
 conda create -n env_for_pda1 python=3.9
 conda activate env_for_pda1
+
+### Install Required Packages
+The `pymatgen` package cannot be installed directly via Conda, so we use the Conda-Forge channel instead:
+```bash
+conda install --channel conda-forge pymatgen
+pip install pymatgen-analysis-diffusion
