@@ -1,2 +1,12 @@
 # Prob_density_vis_XDATCAR
-To visualize the probability distribution of an atom in MD simulation (XDATCAR)
+
+## Overview
+This project visualizes the probability distribution of an atom in molecular dynamics (MD) simulations using XDATCAR files. It leverages the Pymatgen diffusion analysis package, which requires Python version 3.9 or higher.
+
+## Setup
+To set up the environment, we recommend using Conda to manage dependencies. Follow the steps below to create a virtual environment and install the necessary packages.
+
+### Create and Activate the Virtual Environment
+```bash
+conda create -n env_for_pda1 python=3.9
+conda activate env_for_pda1
