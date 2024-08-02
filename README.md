@@ -1,4 +1,4 @@
-# Prob_density_vis_XDATCAR
+# Probability Density Visualization Based on XDATCAR
 
 ## Overview
 This project visualizes the probability distribution of an atom in molecular dynamics (MD) simulations using XDATCAR files. It leverages the Pymatgen diffusion analysis package, which requires Python version 3.9 or higher.
