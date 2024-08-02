@@ -13,7 +13,7 @@ conda activate env_for_pda1
 ```
 
 ### Install Required Packages
-The `pymatgen` package cannot be installed directly via Conda, so we use the Conda-Forge channel instead:
+The `pymatgen` package cannot be installed directly via Conda (i.e., `conda install pymatgen`), so we use the Conda-Forge channel instead:
 ```bash
 conda install --channel conda-forge pymatgen
 pip install pymatgen-analysis-diffusion
