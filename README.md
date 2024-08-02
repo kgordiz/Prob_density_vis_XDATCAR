@@ -31,4 +31,4 @@ To connect the environment to Jupyter Notebook, use the following commands:
 > ```
 
 ### Usage
-Run the Jupyter Notebook provided in the `example` folder to visualize the probability distribution.
+Run the Jupyter Notebook provided in the example folder to generate the probability distribution in a related CHGCAR file, and then visualize the CHGCAR file in VESTA..
