@@ -21,7 +21,7 @@ pip install pymatgen-analysis-diffusion
 
 ### Jupyter Notebook Integration
 To connect the environment to Jupyter Notebook, use the following commands:
-> ```bash
+>```bash
 > pip install ipykernel
 > python -m ipykernel install --user --name=env_for_pda1
 > ```
@@ -32,7 +32,3 @@ To connect the environment to Jupyter Notebook, use the following commands:
 
 ### Usage
 Run the Jupyter Notebook provided in the `example` folder to visualize the probability distribution.
-```bash
-pip install ipykernel
-python -m ipykernel install --user --name=env_for_pda1
-```
