@@ -18,3 +18,21 @@ The `pymatgen` package cannot be installed directly via Conda, so we use the Con
 conda install --channel conda-forge pymatgen
 pip install pymatgen-analysis-diffusion
 ```
+
+### Jupyter Notebook Integration
+To connect the environment to Jupyter Notebook, use the following commands:
+```bash
+pip install ipykernel
+python -m ipykernel install --user --name=env_for_pda1
+```
+> **Note:** If Jupyter Notebook is not already installed, you can install it with:
+> ```bash
+> pip install notebook
+> ```
+
+### Usage
+Run the Jupyter Notebook provided in the `example` folder to visualize the probability distribution.
+```bash
+pip install ipykernel
+python -m ipykernel install --user --name=env_for_pda1
+```
