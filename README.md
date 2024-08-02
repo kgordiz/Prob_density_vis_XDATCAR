@@ -21,9 +21,9 @@ pip install pymatgen-analysis-diffusion
 
 ### Jupyter Notebook Integration
 To connect the environment to Jupyter Notebook, use the following commands:
-```bash
-pip install ipykernel
-python -m ipykernel install --user --name=env_for_pda1
+>```bash
+>pip install ipykernel
+>python -m ipykernel install --user --name=env_for_pda1
 ```
 > **Note:** If Jupyter Notebook is not already installed, you can install it with:
 > ```bash
